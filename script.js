@@ -20,6 +20,10 @@ function userPrompts () { //Prompts user for all needed variables
   passwordLengthChoiceNumber = Number(passwordLengthChoice); //convert password length from a string to a number 
   var passwordLengthCheck = isNaN(passwordLengthChoiceNumber); //check if conversion worked, returns true if valid conversion
   
+  if (passwordLengthChoice === null) {
+    return;
+  }
+
   var valid = false;
   while (valid ==false){ //checks the entry of the box to make sure the entry is valid, if not re-prompt until entry is correct
       if (passwordLengthChoiceNumber > 128 || passwordLengthChoiceNumber < 8  || passwordLengthCheck === true) {
