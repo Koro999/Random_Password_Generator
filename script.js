@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var passwordLengthChoice, passwordLowercaseChoice, passwordUppercaseChoice, 
     passwordNumberChoice, passwordSpecialChoice; //all the prompts required from the user to check for true or false 
 
@@ -88,12 +89,16 @@ generate();
 
 return finalPassword;
 }
+=======
+// Assignment code here
+>>>>>>> 92f9b5d (moved files around in directory to fix pages?)
 
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
+<<<<<<< HEAD
 function writePassword() { 
   var password = generatePassword(); //create a password variable that calls on generatePassword() function (this is what we code)
   var passwordText = document.querySelector("#password"); //checking document for the first id with the name password
@@ -174,3 +179,15 @@ function arrayRandom() {
 //passwordLengthFinal = Array.apply(null, Array(passwordLengthChoiceNumber));
 //console.log(passwordLengthFinal);
 */
+=======
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+>>>>>>> 92f9b5d (moved files around in directory to fix pages?)
