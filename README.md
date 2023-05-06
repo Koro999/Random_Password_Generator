@@ -18,12 +18,12 @@ N/A
 ## Screenshot 
 https://github.com/Koro999/Random_Password_Generator
 https://koro999.github.io/Random_Password_Generator/
-![Alt text](/Develop/Assets/Screenshots/1.png)
-![Alt text](/Develop/Assets/Screenshots/2.png)
-![Alt text](/Develop/Assets/Screenshots/3.png)
-![Alt text](/Develop/Assets/Screenshots/4.png)
-![Alt text](/Develop/Assets/Screenshots/5.png)
-![Alt text](/Develop/Assets/Screenshots/6.png)
+![Alt text](/Assets/Screenshots/1.png)
+![Alt text](/Assets/Screenshots/2.png)
+![Alt text](/Assets/Screenshots/3.png)
+![Alt text](/Assets/Screenshots/4.png)
+![Alt text](/Assets/Screenshots/5.png)
+![Alt text](/Assets/Screenshots/6.png)
 
 ## Usage
 
